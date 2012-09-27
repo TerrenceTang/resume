@@ -2,8 +2,10 @@
     "name": "resume",
     "version": "0.0.1",
     "dependencies": {
-        "express": "2.2.0",
-        "node": "0.8.6",
+        "express": "2.2.0"
+    },
+    "engines": {
+        "node": "latest",
         "npm": "1.1.41"
     }
 }
