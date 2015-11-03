@@ -1,6 +1,6 @@
-var express  = require('express');
+var express  = require('express'),
+    app = express.createServer(express.logger());
 
-var app = express.createServer(express.logger());
 app.use(express.static(__dirname+"/assert"));
 app.get('/admin/parse', function(request, response) {
       require("./parse.js").run();
